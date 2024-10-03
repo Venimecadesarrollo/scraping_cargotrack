@@ -5,6 +5,7 @@ import json
 from pymongo import MongoClient
 
 base_url = "https://bva.cargotrack.net/default.asp"
+#este codigo no esta terminado por falta de datos en la pagina de cargo track
 
 
 def login(user: str, password: str, session: requests.Session) -> None:
